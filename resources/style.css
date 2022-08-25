@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+button{
+    cursor: pointer;
+    background-color: #e6ecff;
+    width: 100%;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    border-color: #e6ecff;
+    border-radius: 5px;
+    color: #118ab2;
+    padding: 5px;
+}
+.day-and-night{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    height: 63vh;
+    padding: 35px;
+    font-size: 0.9rem;
+    line-height: 25px;
+    justify-content: space-between;
+}
+img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.day-and-night .night{
+    width: 315px;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0 3rem 6rem rgb(0 0 0 / 10%);
+}
+.day-and-night .night-text {
+    margin: 26px;
+}
+.day-and-night .morning{
+    width: 315px;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0 3rem 6rem rgb(0 0 0 / 10%);
+}
+.day-and-night .morning-text{
+    margin: 26px;
+}
+.day-and-night .sunset{
+    width: 315px;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0 3rem 6rem rgb(0 0 0 / 10%);
+}
+.day-and-night .sunset-text{
+    margin: 26px;
+}
+
+h1{
+    margin-bottom: 10px;   
+}
+.button{
+    text-align: center;
+    align-items: center;
+}
+.buttonn{
+    text-align: center;
+    align-items: center;
+}
+.buttonnn{
+    text-align: center;
+    align-items: center;
+}
+
+/* .side-line{
+    display: inline-block;
+    border-top: 1px black;
+    width: 20%;
+}
+.triangle{
+    display: inline-block;
+    height: 7px;
+    width: 7px;
+    transform: rotate(45deg);
+    transform-origin: center center;
+    border-top: 1px black;
+    border-left: black;
+    margin: 0 -3px -3px;
+} */
+
+/* ................................................. */
+
+@media screen and (max-width: 1400px) {
+        .day-and-night{
+            height: 73vh;
+        }
+}
+
+@media screen and (max-width: 1100px) {
+        .day-and-night{
+            height: 73vh;
+            margin-bottom: 10px;
+        }
+}
+
+@media screen and (max-width: 915px) {
+        .day-and-night{
+            height: 79vh;
+            margin-bottom: 10px;
+        }
+}
+
+@media screen and (max-width: 840px) {
+    .day-and-night {
+        height: 87vh;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .day-and-night{
+        align-items: center;
+        flex-direction: column;
+        margin: 20px;
+        padding: 40px; 
+    }
+}
+@media screen and (max-width: 500px) {
+    .day-and-night {
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .day-and-night {
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 50px;
+
+    }
+}
+@media screen and (max-width: 320px) {
+    .day-and-night {
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
+}

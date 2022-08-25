@@ -1,0 +1,4 @@
+Background - #f5f5f5;
+cardshadow - box-shadow: 0 3rem 6rem rgb(0 0 0 / 10%);
+button color: #3363ff;
+button background-color: #e6ecff;
